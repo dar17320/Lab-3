@@ -1,0 +1,142 @@
+$date
+	Fri Jul 31 22:57:55 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module SOP3 $end
+$var wire 1 ! NA $end
+$var wire 1 " NB $end
+$var wire 1 # NC $end
+$var wire 1 $ ND $end
+$var wire 1 % OUT $end
+$var wire 1 & S1 $end
+$var wire 1 ' S2 $end
+$var wire 1 ( S3 $end
+$var wire 1 ) S4 $end
+$var wire 1 * S5 $end
+$var wire 1 + S6 $end
+$var wire 1 , S7 $end
+$var wire 1 - S8 $end
+$var reg 1 . A $end
+$var reg 1 / B $end
+$var reg 1 0 C $end
+$var reg 1 1 D $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+00
+0/
+0.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+1"
+1!
+$end
+#1
+0$
+11
+#2
+1$
+0#
+01
+10
+#3
+0$
+11
+#4
+0%
+1$
+1'
+0&
+1#
+0"
+01
+00
+1/
+#5
+0'
+1&
+0$
+11
+#6
+0(
+1$
+1'
+0#
+01
+10
+#7
+0)
+1(
+0$
+11
+#8
+1%
+1$
+1#
+1*
+1"
+1)
+0!
+01
+00
+0/
+1.
+#9
+0%
+0*
+0$
+11
+#10
+1%
+1$
+1*
+0#
+01
+10
+#11
+0$
+11
+#12
+0%
+1$
+1-
+0,
+1#
+0"
+01
+00
+1/
+#13
+0-
+1,
+0$
+11
+#14
+1%
+1$
+1-
+0#
+01
+10
+#15
+0%
+0+
+0$
+11
+#16
