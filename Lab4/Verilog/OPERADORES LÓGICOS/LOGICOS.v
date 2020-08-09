@@ -1,50 +1,41 @@
-module LOGICOS();
+module LOGICOS1(input wire A, B, C, output wire Y);
 
-// SOP del ejercicio 4
+// ECUACIÓN A IMPLEMENTAR: B' 1.2
 
-reg A, B, C, D;
-  wire NA, NB, NC, ND, S1, S2, S3, S4, S5, S6, S7, S8, S9, OUT;
-
-
-  not W1(NA,A);
-  not W2(NB,B);
-  not W3(NC,C);
-  not W4(ND,D);
-
-
-  and A1(S1,NA,NC);
-  or O1(OUT,S1,B);
-  
-  
-
-  initial begin
-    $display("A B C D | Y");
-    $display("------------");
-    $monitor("%b %b %b %b | %b", A, B, C, D, OUT);
-    A = 0; B = 0; C = 0; D = 0;
-    #1 D = 1;
-    #1 C = 1; D = 0;
-    #1 D = 1;
-    #1 B = 1; C = 0; D = 0;
-    #1 D = 1;
-    #1 C = 1; D = 0;
-    #1 D = 1; 
-    #1 A = 1; B = 0; C = 0; D = 0;
-    #1 D = 1;
-    #1 C = 1; D = 0;
-    #1 D = 1;
-    #1 B = 1; C = 0; D = 0;
-    #1 D = 1;
-    #1 C = 1; D = 0;
-    #1 D = 1;
-    #1 $finish;
-  end
-  
-
-  initial 
-    begin
-      $dumpfile("LOGICOS_tb.vcd"); 
-      $dumpvars(0, LOGICOS);
-    end 
+  not W2(Y,B);
 
 endmodule	
+
+module LOGICOS2(input wire A, B, C,D, output wire Y);
+
+// ECUACIÓN A IMPLEMENTAR: B'+C 2.2
+
+  not W2(NB,B);
+
+  or O1(Y,NB,C);
+
+endmodule
+
+module LOGICOS3(input wire A, B, C, output wire Y);
+
+// ECUACIÓN A IMPLEMENTAR: AD+B+C'D 2.3
+
+  not W3(NC,C);
+
+  and A1(S1,A,D);
+  and A2(S2,NC,D);
+  or O1(Y,S1,B,S2);
+
+endmodule
+
+module LOGICOS4(input wire A, B, C, output wire Y);
+
+// ECUACIÓN A IMPLEMENTAR: B+A'C'
+
+  not W1(NA,A);
+  not W3(NC,C);
+
+  and A1(S1,NA,NC);
+  or O1(Y,S1,B);
+
+endmodule
