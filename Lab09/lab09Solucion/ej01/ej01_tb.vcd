@@ -1,0 +1,218 @@
+$date
+	Sat Nov 14 10:29:18 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! Q3 [3:0] $end
+$var wire 2 " Q2 [1:0] $end
+$var wire 1 # Q1 $end
+$var reg 1 $ D1 $end
+$var reg 2 % D2 [1:0] $end
+$var reg 4 & D3 [3:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( enabled $end
+$var reg 1 ) reset $end
+$scope module U1 $end
+$var wire 1 $ D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 # Q $end
+$upscope $end
+$scope module U2 $end
+$var wire 2 * D [1:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var wire 2 + Q [1:0] $end
+$scope module U0 $end
+$var wire 1 , D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 - Q $end
+$upscope $end
+$scope module U1 $end
+$var wire 1 . D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 / Q $end
+$upscope $end
+$upscope $end
+$scope module U3 $end
+$var wire 4 0 D [3:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var wire 4 1 Q [3:0] $end
+$scope module U0 $end
+$var wire 1 2 D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 3 Q $end
+$upscope $end
+$scope module U1 $end
+$var wire 1 4 D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 5 Q $end
+$upscope $end
+$scope module U2 $end
+$var wire 1 6 D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 7 Q $end
+$upscope $end
+$scope module U3 $end
+$var wire 1 8 D $end
+$var wire 1 ' clk $end
+$var wire 1 ( enabled $end
+$var wire 1 ) reset $end
+$var reg 1 9 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x9
+08
+x7
+06
+x5
+04
+x3
+02
+bx 1
+b0 0
+x/
+0.
+x-
+0,
+bx +
+b0 *
+0)
+0(
+0'
+b0 &
+b0 %
+0$
+x#
+bx "
+bx !
+$end
+#1
+0#
+0/
+b0 "
+b0 +
+0-
+07
+09
+05
+b0 !
+b0 1
+03
+1)
+#2
+16
+18
+14
+12
+1.
+1,
+b1111 &
+b1111 0
+b11 %
+b11 *
+1$
+0)
+#5
+1'
+#10
+0'
+#12
+1(
+#15
+1#
+1/
+b11 "
+b11 +
+1-
+17
+19
+15
+b1111 !
+b1111 1
+13
+1'
+#20
+0'
+#22
+08
+02
+0,
+b1010 &
+b1010 0
+b10 %
+b10 *
+0$
+0(
+#25
+1'
+#30
+0'
+#32
+1(
+#35
+0#
+b10 "
+b10 +
+0-
+09
+b1010 !
+b1010 1
+03
+1'
+#40
+0'
+#42
+06
+18
+04
+12
+0.
+1,
+b101 &
+b101 0
+b1 %
+b1 *
+1$
+#45
+13
+05
+19
+b101 !
+b101 1
+07
+1-
+b1 "
+b1 +
+0/
+1#
+1'
+#50
+0'
+#55
+1'
+#60
+0'
